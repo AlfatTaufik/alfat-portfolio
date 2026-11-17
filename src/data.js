@@ -394,11 +394,12 @@ export const resume = {
     { group: 'Concepts', items: ['OOP', 'AI integration', 'Digital logic', 'Blockchain'] },
   ],
   achievements: [
-    { year: '2024', title: '1st Place — IT Software Solutions for Business' },
-    { year: '2025', title: 'Best Student, Software Development major' },
     { year: '2026', title: 'BCA PPTI Scholarship awardee' },
-    { year: '2024', title: 'Bank Indonesia Scholarship awardee' },
-    { year: '', title: 'KIP-K & Unggulan Scholarship awardee' },
+    { year: '2025', title: 'Beasiswa Unggulan awardee (Kemendikdasmen)' },
+    { year: '2025', title: 'KIP Kuliah (KIP-K) Scholarship awardee, Universitas Gadjah Mada' },
+    { year: '2025', title: 'Best Student, Software Development major (SMK Negeri 1 Purwokerto)' },
+    { year: '2024', title: 'Bank Indonesia Scholarship awardee (GenBI)' },
+    { year: '2024', title: '1st Place — IT Software Solutions for Business, LKS SMK Banyumas' },
   ],
   certifications: [
     'BNSP — Junior Programmer',
