@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
+import { Arrow } from '../components/Icons.jsx'
 import ProjectCover from '../components/ProjectCover.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { projectCategories, projects } from '../data.js'
@@ -56,6 +57,9 @@ export default function Work() {
                 </div>
                 <h2 className="work-card__title">{p.title}</h2>
                 <p className="work-card__summary">{p.summary}</p>
+                <span className="card-cta">
+                  View case study <Arrow width={16} height={16} />
+                </span>
               </Link>
             </motion.div>
           ))}

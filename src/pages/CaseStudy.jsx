@@ -31,7 +31,7 @@ export default function CaseStudy() {
         <span className="tag">{project.tag}</span>
         <h1 className="case__title">{project.title}</h1>
         <p className="lead case__lead">{project.description}</p>
-        {(links.live || links.code) && (
+        {(links.live || links.code || links.design) && (
           <div className="case__links">
             {links.live && (
               <a className="pill-btn" href={links.live} target="_blank" rel="noreferrer">
@@ -41,6 +41,11 @@ export default function CaseStudy() {
             {links.code && (
               <a className="ghost-btn" href={links.code} target="_blank" rel="noreferrer">
                 Source code <Arrow width={18} height={18} />
+              </a>
+            )}
+            {links.design && (
+              <a className="ghost-btn" href={links.design} target="_blank" rel="noreferrer">
+                View in Figma <Arrow width={18} height={18} />
               </a>
             )}
           </div>

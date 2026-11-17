@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { projects, projectsIntro } from '../data.js'
+import { Arrow } from './Icons.jsx'
 import ProjectCover from './ProjectCover.jsx'
 import Reveal from './Reveal.jsx'
 
@@ -21,6 +22,9 @@ export default function Projects() {
               <span className="tag">{p.tag}</span>
               <h3 className="project-card__title">{p.title}</h3>
               <p className="project-card__desc">{p.description}</p>
+              <span className="card-cta card-cta--pill">
+                View case study <Arrow width={16} height={16} />
+              </span>
             </div>
           </Link>
         ))}

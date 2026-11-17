@@ -94,8 +94,8 @@ export const projects = [
       'Two company websites for two very different audiences: an internship program in Japan and a coding school for kids.',
     description:
       "Designed and developed websites for two distinct businesses: Bears Cinta Kamu, which offers internships with companies in Japan, and Coding First, a coding school for kids. Each site matches its audience — a clear, trustworthy program page for future interns, and a bright, friendly site for parents and children.",
-    cover: '/images/projects/cover-web.jpg',
-    gallery: ['/images/projects/web-1.png', '/images/projects/web-2.png', '/images/projects/web-3.png', '/images/projects/web-4.png', '/images/projects/web-5.png'],
+    cover: '/images/project-web.jpg',
+    gallery: ['/images/projects/cover-web.jpg', '/images/projects/web-1.png', '/images/projects/web-2.png', '/images/projects/web-3.png', '/images/projects/web-4.png', '/images/projects/web-5.png'],
     meta: { Year: '2025', Industry: 'Business', Client: 'Coding First & Bears Cinta Kamu', Duration: '1 month' },
     stack: ['WordPress', 'Elementor', 'HTML & CSS', 'SEO'],
     sections: [
@@ -158,8 +158,8 @@ export const projects = [
     summary: 'A mentorship programme that introduces young learners to UI/UX design with Figma.',
     description:
       'A mentorship programme that introduces young learners to UI/UX design with Figma. I guided students from layouts and colour theory to interactive prototypes, so they can visualise their ideas and understand how the apps and websites they use every day are built.',
-    cover: '/images/projects/cover-figma.jpg',
-    gallery: ['/images/projects/figma-1.jpg', '/images/projects/figma-2.jpg', '/images/projects/figma-3.jpg', '/images/projects/figma-4.jpg'],
+    cover: '/images/project-figma.jpg',
+    gallery: ['/images/projects/cover-figma.jpg', '/images/projects/figma-1.jpg', '/images/projects/figma-2.jpg', '/images/projects/figma-3.jpg', '/images/projects/figma-4.jpg'],
     meta: { Year: '2025', Industry: 'Design', Client: 'Calief Anshori', Duration: 'Weekly' },
     stack: ['Figma', 'Auto Layout', 'Components', 'Prototyping'],
     sections: [
@@ -190,8 +190,8 @@ export const projects = [
     summary: 'A 2D pixel-art exploration game with NPC dialogue, state machines and Y-sorted depth.',
     description:
       'A 2D pixel-art exploration game built with the Godot Engine, where players interact with a living environment. I built the core mechanics from scratch: fluid movement, a dynamic NPC dialogue system, and an atmosphere that rewards curiosity and environmental storytelling.',
-    cover: '/images/projects/cover-godot.jpg',
-    gallery: ['/images/projects/godot-1.png', '/images/projects/godot-2.png', '/images/projects/godot-3.png', '/images/projects/godot-4.png', '/images/projects/godot-5.png'],
+    cover: '/images/project-godot.png',
+    gallery: ['/images/projects/cover-godot.jpg', '/images/projects/godot-1.png', '/images/projects/godot-2.png', '/images/projects/godot-3.png', '/images/projects/godot-4.png', '/images/projects/godot-5.png'],
     meta: { Year: '2026', Industry: 'Tech', Client: 'Somechika (Japan)', Duration: 'Weekly' },
     stack: ['Godot', 'GDScript', 'State machines', 'Pixel art'],
     sections: [
@@ -240,6 +240,45 @@ export const projects = [
     links: { live: 'https://prototype-t2-c.vercel.app', code: 'https://github.com/AlfatTaufik/trash2cash' },
   },
   {
+    slug: 'ugm-nexus-ai',
+    category: 'AI',
+    tag: 'AI Chatbot',
+    title: 'UGM Nexus — campus AI assistant',
+    summary: 'Talky, a Gemini-powered chatbot that answers questions about UGM and reads the PDFs and photos you upload.',
+    description:
+      'UGM Nexus is a campus assistant called Talky, built as my final project at Universitas Gadjah Mada. It answers questions about tuition (UKT), admissions, faculties and campus locations from a curated campus dataset, reads uploaded PDFs such as guides and schedules, and analyses photos of buildings or exam questions with Gemini. Quick-action buttons cover the most common questions, and the app ships as a Docker container.',
+    cover: '/images/projects/cover-nexus.jpg',
+    meta: { Year: '2025', Type: 'Final project, UGM', Role: 'Design & development' },
+    stack: ['Python', 'Chainlit', 'Gemini API', 'pypdf', 'Docker'],
+    links: { code: 'https://github.com/AlfatTaufik/ugm-nexus-ai' },
+  },
+  {
+    slug: 'vote-smecone',
+    category: 'Web',
+    tag: 'Web App',
+    title: 'VoteSmecone — online student election',
+    summary: 'The frontend of an online voting site for SMK Negeri 1 Purwokerto, built by a team of five.',
+    description:
+      'VoteSmecone was built for the school\'s P5 project on democracy. Students log in with their student number (NIS), read each candidate\'s vision and mission, vote, and follow the results on a live vote chart, with a four-step guide and Q&A for first-time voters. I built it with four teammates as Jantur Dev.',
+    cover: '/images/projects/cover-vote.jpg',
+    meta: { Year: '2023', Type: 'School project, team of 5', Role: 'Frontend developer' },
+    stack: ['React', 'Vite', 'Tailwind CSS', 'NextUI', 'Chart.js'],
+    links: { code: 'https://github.com/AlfatTaufik/FE-VoteSmecone2023' },
+  },
+  {
+    slug: 'relife',
+    category: 'Design',
+    tag: 'UI/UX Design',
+    title: 'ReLife — recycle and healthy life app',
+    summary: 'A mobile app design that tracks your health score and nudges you towards exercise, better food and recycling.',
+    description:
+      'ReLife is a mobile app designed in Figma around two habits: living healthily and recycling. A friendly mascot guides onboarding, the home screen shows a daily health score with exercise and food ideas, a comprehensive health assessment builds your profile, and EcoBank turns recycling into a habit.',
+    cover: '/images/projects/cover-relife.jpg',
+    meta: { Year: '2025', Type: 'App design', Role: 'UI/UX designer' },
+    stack: ['Figma', 'Prototyping', 'Mobile UI'],
+    links: { design: 'https://www.figma.com/design/D9xmLQtgkNT8KNuPNqzmeD/ReLife---Recycle-and-Healthy-Life?node-id=0-3' },
+  },
+  {
     slug: 'opsguide-ai',
     category: 'AI',
     tag: 'AI & Automation',
@@ -254,12 +293,14 @@ export const projects = [
     slug: 'bakaran-project',
     category: 'Web',
     tag: 'Frontend',
-    title: 'Bakaran Project — Figma to React',
-    summary: 'UI design and prototypes in Figma, translated into clean, responsive React code.',
+    title: 'Bakaran Project — AntriSmecone admission queue',
+    summary: 'UI design for AntriSmecone, the online admission queue of SMK Negeri 1 Purwokerto.',
     description:
-      'As a part-time frontend developer I designed user interfaces and interactive prototypes in Figma, then translated the high-fidelity designs into clean, responsive React code — 100% consistent with the design and fully responsive on mobile and desktop.',
+      'As a part-time frontend developer at Bakaran Project I designed AntriSmecone in Figma: applicants log in, fill in a registration form and receive a queue ticket with their number and a QR code, with an FAQ for common questions. The design covers desktop, tablet and mobile. Across my Bakaran work I turned designs like this into clean, responsive React code.',
+    cover: '/images/projects/cover-bakaran.jpg',
     meta: { Year: '2023 – 2024', Type: 'Part-time', Role: 'Frontend Developer' },
     stack: ['Figma', 'React JS', 'Responsive design'],
+    links: { design: 'https://www.figma.com/design/e3wSmzuQhDeBVbtliAYff6/Bakaran-Antrian?node-id=0-1' },
   },
   {
     slug: 'jclothes',
@@ -276,7 +317,7 @@ export const projects = [
   },
 ]
 
-export const projectCategories = ['All', 'Web', 'Teaching', 'Game', 'AI', 'Business']
+export const projectCategories = ['All', 'Web', 'Design', 'Teaching', 'Game', 'AI', 'Business']
 
 export const faqIntro =
   "Maybe you're wondering about one of these. Here are some answers — but feel free to ask me directly."

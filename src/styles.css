@@ -948,6 +948,34 @@ button.chip:hover {
   color: var(--muted);
 }
 
+/* "View case study" hint on clickable project cards */
+.card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-self: start;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.card-cta svg {
+  transition: transform 0.25s var(--ease);
+}
+
+.work-card:hover .card-cta svg,
+.project-card:hover .card-cta svg {
+  transform: translateX(4px);
+}
+
+.card-cta--pill {
+  margin-top: 6px;
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: var(--ink);
+}
+
 /* Case study */
 .case__head {
   display: grid;
