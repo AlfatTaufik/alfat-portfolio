@@ -298,7 +298,7 @@ export const projects = [
     description:
       'As a part-time frontend developer at Bakaran Project I designed AntriSmecone in Figma: applicants log in, fill in a registration form and receive a queue ticket with their number and a QR code, with an FAQ for common questions. The design covers desktop, tablet and mobile. Across my Bakaran work I turned designs like this into clean, responsive React code.',
     cover: '/images/projects/cover-bakaran.jpg',
-    meta: { Year: '2023 – 2024', Type: 'Part-time', Role: 'Frontend Developer' },
+    meta: { Year: '2023 – now', Type: 'Part-time', Role: 'Frontend Developer' },
     stack: ['Figma', 'React JS', 'Responsive design'],
     links: { design: 'https://www.figma.com/design/e3wSmzuQhDeBVbtliAYff6/Bakaran-Antrian?node-id=0-1' },
   },
@@ -378,6 +378,12 @@ export const resume = {
   ],
   experience: [
     {
+      period: '2026 – now',
+      title: 'AI Developer (Freelance)',
+      org: 'Alignerr · Remote',
+      points: ['Freelance AI development work for Alignerr, fully remote.'],
+    },
+    {
       period: '2025',
       title: 'Software Developer (Intern)',
       org: 'OpsGuide.ai',
@@ -385,21 +391,21 @@ export const resume = {
     },
     {
       period: '2024 – 2025',
-      title: 'Web Developer (Intern)',
-      org: 'Coding First',
+      title: 'Software Programmer (Contract)',
+      org: 'Coding First · joined as a web developer intern',
       points: [
         'Built and launched responsive, cross-browser WordPress websites.',
         'Customised themes with Elementor and hand-tuned HTML/CSS; configured plugins for security and SEO.',
       ],
     },
     {
-      period: '2023 – 2024',
+      period: '2023 – now',
       title: 'Frontend Developer (Part-time)',
       org: 'Bakaran Project',
       points: ['Designed UI and prototypes in Figma.', 'Built pixel-perfect, responsive React JS frontends from those designs.'],
     },
     {
-      period: 'Ongoing',
+      period: '2024 – now',
       title: 'Programming Teacher',
       org: 'Freelance · international students',
       points: [
@@ -408,7 +414,7 @@ export const resume = {
       ],
     },
     {
-      period: 'Ongoing',
+      period: '2024 – now',
       title: 'Owner',
       org: 'JClothes (Digital Printing)',
       points: ['Print-on-demand merch with local manufacturing partners.', 'Vendor negotiation and bulk orders for organisations.'],
