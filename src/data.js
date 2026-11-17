@@ -319,6 +319,46 @@ export const projects = [
 
 export const projectCategories = ['All', 'Web', 'Design', 'Teaching', 'Game', 'AI', 'Business']
 
+// "Teach with me" page. Draft: pricing and testimonials wait for Alfat's input.
+export const teach = {
+  intro:
+    'Live online coding lessons in English for young learners around the world. Students build real games, apps and designs from the first session, not just exercises.',
+  facts: [
+    { value: '3', label: 'Countries: Japan, USA, UK' },
+    { value: '60', label: 'Minutes per live session' },
+    { value: '100%', label: 'Taught in English' },
+  ],
+  courses: [
+    {
+      slug: 'python-for-kids',
+      title: 'Python for Kids',
+      body: 'Learn Python by building games and visual stories. Variables, loops and logic are explained with everyday metaphors, so the ideas stick.',
+      image: '/images/project-python.png',
+    },
+    {
+      slug: 'godot-game-dev',
+      title: 'Game Development with Godot',
+      body: 'Make a 2D game in Godot and learn GDScript along the way: characters, levels, dialogue, health and game logic.',
+      image: '/images/project-godot.png',
+    },
+    {
+      slug: 'ui-ux-kids-curriculum',
+      title: 'UI/UX Design with Figma',
+      body: 'Design real app and website screens in Figma, from layout and colour to a clickable prototype.',
+      image: '/images/project-figma.jpg',
+    },
+  ],
+  steps: [
+    { title: 'Say hello', body: "Message me on WhatsApp or email with your child's age, interests and time zone." },
+    { title: 'Make a plan', body: 'We choose a course and a weekly time that works in your time zone.' },
+    { title: 'Learn live', body: '60-minute sessions over Google Meet or Zoom, with screen sharing and live coding.' },
+    { title: 'Build something real', body: 'Every course ends with a project your child made themselves.' },
+  ],
+  pricing: "Pricing depends on the course and how often we meet. Send me a message and I'll reply with the current rates.",
+  testimonials: [],
+  whatsapp: 'https://wa.me/6285942277317?text=' + encodeURIComponent("Hi Alfat, I'm interested in coding lessons for my child."),
+}
+
 export const faqIntro =
   "Maybe you're wondering about one of these. Here are some answers — but feel free to ask me directly."
 

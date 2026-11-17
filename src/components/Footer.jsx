@@ -26,6 +26,7 @@ export default function Footer() {
           <nav className="footer__nav">
             <Link to="/">Home</Link>
             <Link to="/projects">Work</Link>
+            <Link to="/teach">Teach</Link>
             <Link to="/resume">Resume</Link>
           </nav>
         </div>

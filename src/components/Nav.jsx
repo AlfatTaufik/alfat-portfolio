@@ -14,6 +14,7 @@ export default function Nav() {
         <img src={profile.avatar} alt={profile.name} />
       </Link>
       <NavLink to="/projects" className="nav__link">Work</NavLink>
+      <NavLink to="/teach" className="nav__link">Teach</NavLink>
       <NavLink to="/resume" className="nav__link">Resume</NavLink>
       <a className="nav__cta" href={profile.cv} target="_blank" rel="noreferrer">
         <span className="nav__cta-long">Curriculum Vitae</span>

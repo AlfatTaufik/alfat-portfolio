@@ -948,6 +948,130 @@ button.chip:hover {
   color: var(--muted);
 }
 
+/* Teach with me */
+.teach__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.teach__facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px 40px;
+  margin-top: 72px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+}
+
+.teach__block {
+  margin-top: 120px;
+}
+
+.teach__courses {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px 28px;
+  margin-top: 40px;
+}
+
+.teach__steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.teach__step {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.teach__step p {
+  color: var(--muted);
+}
+
+.teach__step-num {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--accent);
+}
+
+.teach__step-title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.teach__quotes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.teach__quote {
+  padding: 28px;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.teach__quote figcaption {
+  margin-top: 16px;
+  color: var(--muted);
+}
+
+.teach__cta {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  margin-top: 120px;
+  padding: 48px;
+  border-radius: var(--radius);
+  background: rgba(208, 255, 113, 0.06);
+  border: 1px solid rgba(208, 255, 113, 0.25);
+}
+
+.teach__cta .lead {
+  max-width: 560px;
+}
+
+@media (max-width: 1023px) {
+  .teach__courses {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .teach__steps {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .teach__facts,
+  .teach__courses,
+  .teach__steps,
+  .teach__quotes {
+    grid-template-columns: 1fr;
+  }
+
+  .teach__block,
+  .teach__cta {
+    margin-top: 80px;
+  }
+
+  .teach__cta {
+    padding: 28px 20px;
+  }
+}
+
 /* "View case study" hint on clickable project cards */
 .card-cta {
   display: inline-flex;
