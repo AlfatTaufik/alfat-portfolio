@@ -91,9 +91,9 @@ export const projects = [
     tag: 'Web Development',
     title: 'Company websites for Bears Cinta Kamu & Coding First',
     summary:
-      'Two company websites for two very different businesses: a custom apparel distributor and a WordPress development agency.',
+      'Two company websites for two very different audiences: an internship program in Japan and a coding school for kids.',
     description:
-      "Designed and developed web solutions for two distinct businesses: Bears Cinta Kamu, a custom apparel distributor, and Coding First, a professional WordPress development agency. Each site matches its brand — from a creative e-commerce showcase to a professional, service-oriented corporate site.",
+      "Designed and developed websites for two distinct businesses: Bears Cinta Kamu, which offers internships with companies in Japan, and Coding First, a coding school for kids. Each site matches its audience — a clear, trustworthy program page for future interns, and a bright, friendly site for parents and children.",
     cover: '/images/project-web.jpg',
     gallery: ['/images/projects/web-1.png', '/images/projects/web-2.png', '/images/projects/web-3.png', '/images/projects/web-4.png', '/images/projects/web-5.png'],
     meta: { Year: '2025', Industry: 'Business', Client: 'Coding First & Bears Cinta Kamu', Duration: '1 month' },
@@ -101,15 +101,15 @@ export const projects = [
     sections: [
       {
         title: 'Problem',
-        body: 'Both businesses lacked a central platform to communicate their value. Bears Cinta Kamu struggled to show its custom design portfolio to potential clients, while Coding First needed a professional landing page to build authority in a competitive WordPress market. The challenge was two very different visual identities, both fast, responsive and easy to manage.',
+        body: 'Both businesses lacked a central place to explain what they offer. Bears Cinta Kamu needed future interns to understand its Japan internship program and apply, while Coding First needed parents to find its courses and get in touch. The challenge was two very different visual identities, both fast, responsive and easy to manage.',
       },
       {
         title: 'Solution',
-        body: 'I built a tailored web architecture for each brand. For the apparel business, a visual-heavy UI that highlights custom designs and streamlines client inquiries. For the agency, a clean, professional layout that puts service expertise and portfolio first. Modern web standards and SEO turned both sites into working lead-generation tools.',
+        body: 'I built a tailored site for each brand with WordPress and Elementor. For Bears, a program page that walks visitors from the benefits of interning in Japan to the Apply button. For Coding First, a bright, kid-friendly layout with its courses and a WhatsApp contact button always in reach. Modern web standards and SEO turned both sites into working lead-generation tools.',
       },
       {
         title: 'Challenge',
-        body: "Switching between two brand aesthetics: the playful, creative feel of a custom printing service and the technical, reliable reputation of a web agency. I also optimised performance so the apparel site's high-resolution images never hurt loading speed or mobile responsiveness.",
+        body: 'Switching between two audiences: young adults weighing a career move abroad, and parents choosing a coding class for their children. Each needed its own tone, imagery and calls to action, while both sites stayed responsive on mobile.',
       },
       {
         title: 'Result',
