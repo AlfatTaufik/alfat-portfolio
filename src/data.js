@@ -94,7 +94,7 @@ export const projects = [
       'Two company websites for two very different audiences: an internship program in Japan and a coding school for kids.',
     description:
       "Designed and developed websites for two distinct businesses: Bears Cinta Kamu, which offers internships with companies in Japan, and Coding First, a coding school for kids. Each site matches its audience — a clear, trustworthy program page for future interns, and a bright, friendly site for parents and children.",
-    cover: '/images/project-web.jpg',
+    cover: '/images/projects/cover-web.jpg',
     gallery: ['/images/projects/web-1.png', '/images/projects/web-2.png', '/images/projects/web-3.png', '/images/projects/web-4.png', '/images/projects/web-5.png'],
     meta: { Year: '2025', Industry: 'Business', Client: 'Coding First & Bears Cinta Kamu', Duration: '1 month' },
     stack: ['WordPress', 'Elementor', 'HTML & CSS', 'SEO'],
@@ -158,7 +158,7 @@ export const projects = [
     summary: 'A mentorship programme that introduces young learners to UI/UX design with Figma.',
     description:
       'A mentorship programme that introduces young learners to UI/UX design with Figma. I guided students from layouts and colour theory to interactive prototypes, so they can visualise their ideas and understand how the apps and websites they use every day are built.',
-    cover: '/images/project-figma.jpg',
+    cover: '/images/projects/cover-figma.jpg',
     gallery: ['/images/projects/figma-1.jpg', '/images/projects/figma-2.jpg', '/images/projects/figma-3.jpg', '/images/projects/figma-4.jpg'],
     meta: { Year: '2025', Industry: 'Design', Client: 'Calief Anshori', Duration: 'Weekly' },
     stack: ['Figma', 'Auto Layout', 'Components', 'Prototyping'],
@@ -190,7 +190,7 @@ export const projects = [
     summary: 'A 2D pixel-art exploration game with NPC dialogue, state machines and Y-sorted depth.',
     description:
       'A 2D pixel-art exploration game built with the Godot Engine, where players interact with a living environment. I built the core mechanics from scratch: fluid movement, a dynamic NPC dialogue system, and an atmosphere that rewards curiosity and environmental storytelling.',
-    cover: '/images/project-godot.png',
+    cover: '/images/projects/cover-godot.jpg',
     gallery: ['/images/projects/godot-1.png', '/images/projects/godot-2.png', '/images/projects/godot-3.png', '/images/projects/godot-4.png', '/images/projects/godot-5.png'],
     meta: { Year: '2026', Industry: 'Tech', Client: 'Somechika (Japan)', Duration: 'Weekly' },
     stack: ['Godot', 'GDScript', 'State machines', 'Pixel art'],
@@ -270,6 +270,7 @@ export const projects = [
     description:
       'I founded JClothes, a print-on-demand distribution business that partners with local manufacturers to deliver custom merchandise. I manage vendor relationships, negotiate production contracts and handle bulk orders for organisations — without owning manufacturing assets — and built the storefront frontend myself.',
     meta: { Year: '2024', Type: 'Own business', Role: 'Owner' },
+    cover: '/images/projects/cover-jclothes.jpg',
     stack: ['Vendor management', 'Frontend', 'CSS'],
     links: { code: 'https://github.com/AlfatTaufik/JClothes-2.1.0' },
   },
