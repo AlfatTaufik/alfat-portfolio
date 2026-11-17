@@ -393,18 +393,22 @@ export const resume = {
     { group: 'Engineering', items: ['Proteus', 'KiCad', 'Microcontrollers'] },
     { group: 'Concepts', items: ['OOP', 'AI integration', 'Digital logic', 'Blockchain'] },
   ],
+  // Both lists are ordered by prestige, not by date.
   achievements: [
     { year: '2026', title: 'BCA PPTI Scholarship awardee' },
-    { year: '2025–26', title: 'Beasiswa Unggulan awardee (Kemendikdasmen)' },
-    { year: '2025–26', title: 'KIP Kuliah (KIP-K) Scholarship awardee, Universitas Gadjah Mada' },
-    { year: '2025', title: 'Best Student, Software Development major (SMK Negeri 1 Purwokerto)' },
     { year: '2024', title: 'Bank Indonesia Scholarship awardee (GenBI)' },
+    { year: '2025–26', title: 'Beasiswa Unggulan awardee (Kemendikdasmen)' },
     { year: '2024', title: '1st Place — IT Software Solutions for Business, LKS SMK Banyumas' },
     { year: '2024', title: 'Contestant, LKS SMK Central Java provincial round — IT Software Solutions for Business' },
+    { year: '2025–26', title: 'KIP Kuliah (KIP-K) Scholarship awardee, Universitas Gadjah Mada' },
+    { year: '2025', title: 'Best Student, Software Development major (SMK Negeri 1 Purwokerto)' },
   ],
   certifications: [
     'BNSP — Junior Programmer',
     'BNSP — Microsoft Office Advanced (PowerPoint, Excel, Word)',
+    'UKBI — Indonesian Language Proficiency Test (Badan Bahasa)',
     'Crocodic — Web Developer Advanced',
+    'Dicoding — Git and GitHub',
+    'freeCodeCamp — Foundational C# with Microsoft',
   ],
 }
