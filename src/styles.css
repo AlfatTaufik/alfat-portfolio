@@ -15,8 +15,8 @@
   --radius-pill: 99px;
 
   --gutter: 40px;
-  --card-w: 260px;
-  --card-h: 368px;
+  --card-w: clamp(240px, min(21vw, 34vh), 380px);
+  --card-h: calc(var(--card-w) * 1.415);
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -288,9 +288,16 @@ ul {
   position: relative;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  max-width: 1440px;
   min-height: max(100svh, 760px);
   padding-top: 22px;
   padding-bottom: 40px;
+}
+
+/* The two role words are set big and overlap the card, so the hero reads as one poster. */
+.hero .display {
+  font-size: clamp(64px, min(11vw, 17vh), 200px);
+  line-height: 0.95;
 }
 
 .hero__top,
@@ -314,13 +321,13 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 0;
+  margin: clamp(-40px, -2vw, -12px) 0 0;
 }
 
 .hi-bubble {
   position: absolute;
   left: -42px;
-  bottom: -42px;
+  bottom: 28px;
   z-index: 3;
   display: grid;
   place-items: center;
@@ -335,7 +342,7 @@ ul {
 
 .hero__bottom {
   justify-self: end;
-  margin-top: -56px;
+  margin-top: -8px;
   padding-right: clamp(0px, 6vw, 80px);
   text-align: center;
 }
