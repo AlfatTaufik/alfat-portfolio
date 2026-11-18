@@ -15,6 +15,9 @@ export default function Teach() {
   return (
     <div className="page container teach">
       <Reveal className="page__head">
+        <Link to="/camp" className="camp-banner">
+          <span className="tag">New</span> Winter Coding Camp, 28 Dec – 2 Jan: build your first game in 5 days <Arrow width={16} height={16} />
+        </Link>
         <p className="eyebrow">Teach with me</p>
         <h1 className="display">Coding lessons for kids</h1>
         <p className="lead">{teach.intro}</p>

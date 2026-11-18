@@ -1140,6 +1140,85 @@ button.chip:hover {
   }
 }
 
+/* Winter Coding Camp */
+.camp-banner {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  padding: 8px 16px 8px 8px;
+  border: 1px solid rgba(208, 255, 113, 0.35);
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  transition: border-color 0.2s var(--ease);
+}
+
+.camp-banner:hover {
+  border-color: var(--accent);
+}
+
+.camp__days {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.camp__when {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.camp__times {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.camp__time {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.camp__time dd {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--accent);
+}
+
+.camp__needs {
+  margin-top: 24px;
+  padding-left: 20px;
+  list-style: disc;
+  color: var(--muted);
+}
+
+.camp__needs li + li {
+  margin-top: 8px;
+}
+
+.camp__back {
+  margin-top: 16px;
+}
+
+@media (max-width: 1023px) {
+  .camp__days {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .camp__when {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .camp__days {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* "View case study" hint on clickable project cards */
 .card-cta {
   display: inline-flex;

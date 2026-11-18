@@ -375,6 +375,44 @@ export const teach = {
   whatsapp: 'https://wa.me/6285942277317?text=' + encodeURIComponent("Hi Alfat, I'd like to book a free trial coding class for my child."),
 }
 
+// Winter Coding Camp (December 2026). Dates, time and price are Alfat's to confirm.
+export const camp = {
+  title: 'Winter Coding Camp',
+  headline: 'Build your first game in 5 days',
+  intro:
+    'A small online camp for the winter break. In five live sessions your child builds a 2D game in Godot, from a character that moves to a finished game they can share with family.',
+  facts: [
+    { value: '5', label: 'Live sessions, 90 minutes each' },
+    { value: '5', label: 'Kids per group, at most' },
+    { value: '10–15', label: 'Ages' },
+    { value: '$69', label: 'Per child, for all 5 sessions' },
+  ],
+  dates: 'Mon 28 – Thu 31 Dec 2026, and Sat 2 Jan 2027 (no class on New Year’s Day)',
+  times: [
+    { place: 'Jakarta (WIB)', time: '16:00–17:30' },
+    { place: 'Singapore', time: '17:00–18:30' },
+    { place: 'Tokyo / Seoul', time: '18:00–19:30' },
+    { place: 'Sydney', time: '20:00–21:30' },
+    { place: 'Amsterdam / Berlin', time: '10:00–11:30' },
+    { place: 'London', time: '09:00–10:30' },
+  ],
+  days: [
+    { title: 'Meet Godot', body: 'Install Godot together, make a character appear and move with the keyboard.' },
+    { title: 'Build a level', body: 'Draw a world with tiles, add walls and a camera that follows the player.' },
+    { title: 'Collect and score', body: 'Add coins or gems to collect and a score on the screen.' },
+    { title: 'Danger!', body: 'Add an enemy, health and a game-over screen, using variables and conditions.' },
+    { title: 'Polish and show', body: 'Sound, a start screen and final touches. Parents join the last 15 minutes for the show-and-tell.' },
+  ],
+  needs: [
+    'A laptop or desktop (Windows, macOS or Linux) that can run Godot 4, which is free',
+    'Stable internet, a webcam and a headset or microphone',
+    'No coding experience needed',
+  ],
+  price: '$69 per child for all five sessions (7.5 hours of live teaching). Siblings: $59 each. Pay by PayPal, Wise or bank transfer, in US dollars.',
+  deadline: 'Register by Thursday 24 December 2026. Places are limited to 5 kids so everyone gets help.',
+  whatsapp: 'https://wa.me/6285942277317?text=' + encodeURIComponent("Hi Alfat, I'd like to register my child for the Winter Coding Camp."),
+}
+
 export const faqIntro =
   "Maybe you're wondering about one of these. Here are some answers — but feel free to ask me directly."
 

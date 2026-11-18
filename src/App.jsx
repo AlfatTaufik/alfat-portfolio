@@ -7,6 +7,7 @@ import Work from './pages/Work.jsx'
 import CaseStudy from './pages/CaseStudy.jsx'
 import Resume from './pages/Resume.jsx'
 import Teach from './pages/Teach.jsx'
+import Camp from './pages/Camp.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/projects/:slug" element={<CaseStudy />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/teach" element={<Teach />} />
+          <Route path="/camp" element={<Camp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

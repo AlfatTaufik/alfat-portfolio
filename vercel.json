@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/teach", "destination": "/teach.html" },
+    { "source": "/camp", "destination": "/camp.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
