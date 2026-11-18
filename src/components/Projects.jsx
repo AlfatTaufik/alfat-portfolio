@@ -5,7 +5,8 @@ import ProjectCover from './ProjectCover.jsx'
 import Reveal from './Reveal.jsx'
 
 export default function Projects() {
-  const featured = projects.filter((p) => p.featured)
+  // `featured` is a rank: 1 shows first.
+  const featured = projects.filter((p) => p.featured).sort((a, b) => a.featured - b.featured)
 
   return (
     <section className="projects container" id="projects">

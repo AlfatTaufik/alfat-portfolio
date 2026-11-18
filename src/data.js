@@ -11,9 +11,9 @@ export const profile = {
   email: 'alfattaufiknh@gmail.com',
   phone: '+62 859-4227-7317',
   cv: 'https://docs.google.com/document/d/18zeiQeMrQV3xnhDn1syUdH0Ba3_A3A4py-HidcY3EkI/edit?usp=sharing',
-  avatar: '/images/portrait-front.jpg',
-  portraitFront: '/images/portrait-front.jpg',
-  portraitBack: '/images/portrait-back.jpg',
+  avatar: '/images/avatar.webp',
+  portraitFront: '/images/hero-front.webp',
+  portraitBack: '/images/portrait-back.webp',
 }
 
 export const socials = [
@@ -86,7 +86,7 @@ export const projectsIntro =
 export const projects = [
   {
     slug: 'business-digital-presence',
-    featured: true,
+    featured: 3,
     category: 'Web',
     tag: 'Web Development',
     title: 'Company websites for Bears Cinta Kamu & Coding First',
@@ -94,8 +94,8 @@ export const projects = [
       'Two company websites for two very different audiences: an internship program in Japan and a coding school for kids.',
     description:
       "Designed and developed websites for two distinct businesses: Bears Cinta Kamu, which offers internships with companies in Japan, and Coding First, a coding school for kids. Each site matches its audience — a clear, trustworthy program page for future interns, and a bright, friendly site for parents and children.",
-    cover: '/images/project-web.jpg',
-    gallery: ['/images/projects/cover-web.jpg', '/images/projects/web-1.png', '/images/projects/web-2.png', '/images/projects/web-3.png', '/images/projects/web-4.png', '/images/projects/web-5.png'],
+    cover: '/images/project-web.webp',
+    gallery: ['/images/projects/cover-web.webp', '/images/projects/web-1.webp', '/images/projects/web-2.webp', '/images/projects/web-3.webp', '/images/projects/web-4.webp', '/images/projects/web-5.webp'],
     meta: { Year: '2025', Industry: 'Business', Client: 'Coding First & Bears Cinta Kamu', Duration: '1 month' },
     stack: ['WordPress', 'Elementor', 'HTML & CSS', 'SEO'],
     sections: [
@@ -119,15 +119,15 @@ export const projects = [
   },
   {
     slug: 'python-for-kids',
-    featured: true,
+    featured: 4,
     category: 'Teaching',
     tag: 'Teaching',
     title: 'Teaching Python for kids',
     summary: 'Personalised, project-based Python lessons for young learners in the USA, the UK and Japan.',
     description:
       'As an international Python instructor I deliver personalised coding lessons to students across the globe, including the USA, the UK and Japan. Breaking complex concepts into engaging, age-appropriate modules, I help young learners master Python fundamentals, logical reasoning and creative problem-solving.',
-    cover: '/images/project-python.png',
-    gallery: ['/images/projects/python-1.png', '/images/projects/python-2.png'],
+    cover: '/images/project-python.webp',
+    gallery: ['/images/projects/python-1.webp', '/images/projects/python-2.webp'],
     meta: { Year: '2026', Industry: 'Education', Client: 'Calief Anshori (United Kingdom)', Duration: 'Weekly' },
     stack: ['Python', 'Curriculum design', 'Remote teaching'],
     sections: [
@@ -151,15 +151,14 @@ export const projects = [
   },
   {
     slug: 'ui-ux-kids-curriculum',
-    featured: true,
     category: 'Teaching',
     tag: 'UI / UX Teaching',
     title: 'Figma design lessons for kids',
     summary: 'A mentorship programme that introduces young learners to UI/UX design with Figma.',
     description:
       'A mentorship programme that introduces young learners to UI/UX design with Figma. I guided students from layouts and colour theory to interactive prototypes, so they can visualise their ideas and understand how the apps and websites they use every day are built.',
-    cover: '/images/project-figma.jpg',
-    gallery: ['/images/projects/cover-figma.jpg', '/images/projects/figma-1.jpg', '/images/projects/figma-2.jpg', '/images/projects/figma-3.jpg', '/images/projects/figma-4.jpg'],
+    cover: '/images/project-figma.webp',
+    gallery: ['/images/projects/cover-figma.webp', '/images/projects/figma-1.webp', '/images/projects/figma-2.webp', '/images/projects/figma-3.webp', '/images/projects/figma-4.webp'],
     meta: { Year: '2025', Industry: 'Design', Client: 'Calief Anshori', Duration: 'Weekly' },
     stack: ['Figma', 'Auto Layout', 'Components', 'Prototyping'],
     sections: [
@@ -183,15 +182,14 @@ export const projects = [
   },
   {
     slug: 'godot-game-dev',
-    featured: true,
     category: 'Game',
     tag: 'Game Development',
     title: 'Game development with Godot',
     summary: 'A 2D pixel-art exploration game with NPC dialogue, state machines and Y-sorted depth.',
     description:
       'A 2D pixel-art exploration game built with the Godot Engine, where players interact with a living environment. I built the core mechanics from scratch: fluid movement, a dynamic NPC dialogue system, and an atmosphere that rewards curiosity and environmental storytelling.',
-    cover: '/images/project-godot.png',
-    gallery: ['/images/projects/cover-godot.jpg', '/images/projects/godot-1.png', '/images/projects/godot-2.png', '/images/projects/godot-3.png', '/images/projects/godot-4.png', '/images/projects/godot-5.png'],
+    cover: '/images/project-godot.webp',
+    gallery: ['/images/projects/cover-godot.webp', '/images/projects/godot-1.webp', '/images/projects/godot-2.webp', '/images/projects/godot-3.webp', '/images/projects/godot-4.webp', '/images/projects/godot-5.webp'],
     meta: { Year: '2026', Industry: 'Tech', Client: 'Somechika (Japan)', Duration: 'Weekly' },
     stack: ['Godot', 'GDScript', 'State machines', 'Pixel art'],
     sections: [
@@ -215,13 +213,14 @@ export const projects = [
   },
   {
     slug: 'nusa-track',
+    featured: 1,
     category: 'Web',
     tag: 'Web App',
     title: 'Nusa Track — money tracker',
     summary: 'A personal finance tracker for wallets, investments and budget envelopes, synced to the cloud.',
     description:
       'Nusa Track keeps every wallet, investment and budget envelope in one place — “satu dompet, semua tercatat”. Data syncs securely through Supabase Cloud with local storage, and a demo mode lets anyone try it without an account.',
-    cover: '/images/projects/nusa-track.jpg',
+    cover: '/images/projects/nusa-track.webp',
     meta: { Year: '2026', Type: 'Personal project', Role: 'Design & development' },
     stack: ['React', 'Vite', 'Supabase'],
     links: { live: 'https://budget-track-chi.vercel.app', code: 'https://github.com/AlfatTaufik/Budget-track' },
@@ -234,20 +233,21 @@ export const projects = [
     summary: 'An editorial-style education site where you sort real trash by dragging it into a hanging bin.',
     description:
       'Trash2Cash (EcoPilah) teaches household waste sorting through play. Drag real photographed trash into a hanging two-layer bin, built with Pointer Events and a dependency-free Web Audio sound engine. The site also has a searchable waste directory, a decomposition timeline and a household waste impact calculator.',
-    cover: '/images/projects/trash2cash.jpg',
+    cover: '/images/projects/trash2cash.webp',
     meta: { Year: '2026', Type: 'Prototype', Role: 'Design & development' },
     stack: ['Vite', 'JavaScript', 'Pointer Events', 'Web Audio API'],
     links: { live: 'https://prototype-t2-c.vercel.app', code: 'https://github.com/AlfatTaufik/trash2cash' },
   },
   {
     slug: 'ugm-nexus-ai',
+    featured: 2,
     category: 'AI',
     tag: 'AI Chatbot',
     title: 'UGM Nexus — campus AI assistant',
     summary: 'Talky, a Gemini-powered chatbot that answers questions about UGM and reads the PDFs and photos you upload.',
     description:
       'UGM Nexus is a campus assistant called Talky, built as my final project at Universitas Gadjah Mada. It answers questions about tuition (UKT), admissions, faculties and campus locations from a curated campus dataset, reads uploaded PDFs such as guides and schedules, and analyses photos of buildings or exam questions with Gemini. Quick-action buttons cover the most common questions, and the app ships as a Docker container.',
-    cover: '/images/projects/cover-nexus.jpg',
+    cover: '/images/projects/cover-nexus.webp',
     meta: { Year: '2025', Type: 'Final project, UGM', Role: 'Design & development' },
     stack: ['Python', 'Chainlit', 'Gemini API', 'pypdf', 'Docker'],
     links: { code: 'https://github.com/AlfatTaufik/ugm-nexus-ai' },
@@ -260,7 +260,7 @@ export const projects = [
     summary: 'The frontend of an online voting site for SMK Negeri 1 Purwokerto, built by a team of five.',
     description:
       'VoteSmecone was built for the school\'s P5 project on democracy. Students log in with their student number (NIS), read each candidate\'s vision and mission, vote, and follow the results on a live vote chart, with a four-step guide and Q&A for first-time voters. I built it with four teammates as Jantur Dev.',
-    cover: '/images/projects/cover-vote.jpg',
+    cover: '/images/projects/cover-vote.webp',
     meta: { Year: '2023', Type: 'School project, team of 5', Role: 'Frontend developer' },
     stack: ['React', 'Vite', 'Tailwind CSS', 'NextUI', 'Chart.js'],
     links: { code: 'https://github.com/AlfatTaufik/FE-VoteSmecone2023' },
@@ -273,7 +273,7 @@ export const projects = [
     summary: 'A mobile app design that tracks your health score and nudges you towards exercise, better food and recycling.',
     description:
       'ReLife is a mobile app designed in Figma around two habits: living healthily and recycling. A friendly mascot guides onboarding, the home screen shows a daily health score with exercise and food ideas, a comprehensive health assessment builds your profile, and EcoBank turns recycling into a habit.',
-    cover: '/images/projects/cover-relife.jpg',
+    cover: '/images/projects/cover-relife.webp',
     meta: { Year: '2025', Type: 'App design', Role: 'UI/UX designer' },
     stack: ['Figma', 'Prototyping', 'Mobile UI'],
     links: { design: 'https://www.figma.com/design/D9xmLQtgkNT8KNuPNqzmeD/ReLife---Recycle-and-Healthy-Life?node-id=0-3' },
@@ -297,7 +297,7 @@ export const projects = [
     summary: 'UI design for AntriSmecone, the online admission queue of SMK Negeri 1 Purwokerto.',
     description:
       'As a part-time frontend developer at Bakaran Project I designed AntriSmecone in Figma: applicants log in, fill in a registration form and receive a queue ticket with their number and a QR code, with an FAQ for common questions. The design covers desktop, tablet and mobile. Across my Bakaran work I turned designs like this into clean, responsive React code.',
-    cover: '/images/projects/cover-bakaran.jpg',
+    cover: '/images/projects/cover-bakaran.webp',
     meta: { Year: '2023 – now', Type: 'Part-time', Role: 'Frontend Developer' },
     stack: ['Figma', 'React JS', 'Responsive design'],
     links: { design: 'https://www.figma.com/design/e3wSmzuQhDeBVbtliAYff6/Bakaran-Antrian?node-id=0-1' },
@@ -311,7 +311,7 @@ export const projects = [
     description:
       'I founded JClothes, a print-on-demand distribution business that partners with local manufacturers to deliver custom merchandise. I manage vendor relationships, negotiate production contracts and handle bulk orders for organisations — without owning manufacturing assets — and built the storefront frontend myself.',
     meta: { Year: '2024', Type: 'Own business', Role: 'Owner' },
-    cover: '/images/projects/cover-jclothes.jpg',
+    cover: '/images/projects/cover-jclothes.webp',
     stack: ['Vendor management', 'Frontend', 'CSS'],
     links: { code: 'https://github.com/AlfatTaufik/JClothes-2.1.0' },
   },
@@ -334,19 +334,19 @@ export const teach = {
       slug: 'python-for-kids',
       title: 'Python for Kids',
       body: 'Learn Python by building games and visual stories. Variables, loops and logic are explained with everyday metaphors, so the ideas stick.',
-      image: '/images/project-python.png',
+      image: '/images/project-python.webp',
     },
     {
       slug: 'godot-game-dev',
       title: 'Game Development with Godot',
       body: 'Make a 2D game in Godot and learn GDScript along the way: characters, levels, dialogue, health and game logic.',
-      image: '/images/project-godot.png',
+      image: '/images/project-godot.webp',
     },
     {
       slug: 'ui-ux-kids-curriculum',
       title: 'UI/UX Design with Figma',
       body: 'Design real app and website screens in Figma, from layout and colour to a clickable prototype.',
-      image: '/images/project-figma.jpg',
+      image: '/images/project-figma.webp',
     },
   ],
   steps: [
