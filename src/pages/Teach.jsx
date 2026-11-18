@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import Accordion from '../components/Accordion.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { Arrow } from '../components/Icons.jsx'
 import { profile, teach } from '../data.js'
@@ -19,7 +20,7 @@ export default function Teach() {
         <p className="lead">{teach.intro}</p>
         <div className="teach__actions">
           <a className="pill-btn" href={teach.whatsapp} target="_blank" rel="noreferrer">
-            Chat on WhatsApp <Arrow width={18} height={18} />
+            Book a free trial <Arrow width={18} height={18} />
           </a>
           <a className="ghost-btn" href={email}>
             Email me <Arrow width={18} height={18} />
@@ -69,6 +70,27 @@ export default function Teach() {
         </ol>
       </section>
 
+      <section className="teach__block" id="pricing">
+        <Reveal as="h2" className="h2">Prices</Reveal>
+        <Reveal as="p" className="lead">{teach.pricing}</Reveal>
+        <div className="teach__plans">
+          {teach.plans.map((plan, i) => (
+            <Reveal key={plan.name} delay={i * 0.06} className={`teach__plan ${plan.featured ? 'is-featured' : ''}`}>
+              {plan.featured && <span className="tag teach__plan-badge">Recommended</span>}
+              <h3 className="teach__plan-name">{plan.name}</h3>
+              <p className="teach__plan-price">{plan.price}</p>
+              <p className="teach__plan-unit">{plan.unit}</p>
+              <ul className="teach__plan-points">
+                {plan.points.map((pt) => (
+                  <li key={pt}>{pt}</li>
+                ))}
+              </ul>
+            </Reveal>
+          ))}
+        </div>
+        <Reveal as="p" className="teach__group-note">{teach.groupNote}</Reveal>
+      </section>
+
       {teach.testimonials.length > 0 && (
         <section className="teach__block">
           <Reveal as="h2" className="h2">What parents say</Reveal>
@@ -83,12 +105,20 @@ export default function Teach() {
         </section>
       )}
 
+      <section className="teach__block">
+        <Reveal as="h2" className="h2">Questions from parents</Reveal>
+        <Accordion
+          className="accordion--faq teach__faq"
+          items={teach.faq.map((f, i) => ({ number: String(i + 1).padStart(2, '0'), title: f.q, content: f.a }))}
+        />
+      </section>
+
       <Reveal as="section" className="teach__cta">
         <h2 className="h2">Ready to start?</h2>
-        <p className="lead">{teach.pricing}</p>
+        <p className="lead">Tell me your child's age, interests and time zone, and we'll pick a time for a free 30-minute trial.</p>
         <div className="teach__actions">
           <a className="pill-btn" href={teach.whatsapp} target="_blank" rel="noreferrer">
-            Chat on WhatsApp <Arrow width={18} height={18} />
+            Book a free trial <Arrow width={18} height={18} />
           </a>
           <a className="ghost-btn" href={email}>
             Email me <Arrow width={18} height={18} />

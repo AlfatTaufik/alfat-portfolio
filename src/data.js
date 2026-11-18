@@ -326,6 +326,7 @@ export const teach = {
   facts: [
     { value: '3', label: 'Countries: Japan, USA, UK' },
     { value: '60', label: 'Minutes per live session' },
+    { value: '$0', label: 'Free 30-minute trial class' },
     { value: '100%', label: 'Taught in English' },
   ],
   courses: [
@@ -349,14 +350,29 @@ export const teach = {
     },
   ],
   steps: [
-    { title: 'Say hello', body: "Message me on WhatsApp or email with your child's age, interests and time zone." },
-    { title: 'Make a plan', body: 'We choose a course and a weekly time that works in your time zone.' },
+    { title: 'Free trial class', body: "Book a free 30-minute class. Your child builds something small, and you see how I teach." },
+    { title: 'Make a plan', body: 'We choose a course, a package and a weekly time that works in your time zone.' },
     { title: 'Learn live', body: '60-minute sessions over Google Meet or Zoom, with screen sharing and live coding.' },
     { title: 'Build something real', body: 'Every course ends with a project your child made themselves.' },
   ],
-  pricing: "Pricing depends on the course and how often we meet. Send me a message and I'll reply with the current rates.",
+  pricing: 'Start with a free trial class. Prices are in US dollars per 60-minute live session.',
+  plans: [
+    { name: 'Free trial', price: '$0', unit: '30 minutes', points: ['Meet me and try a mini project', 'Find the right course and level', 'No commitment'], featured: false },
+    { name: 'Single session', price: '$15', unit: 'per session', points: ['Pay as you go', 'Good for trying a new topic'], featured: false },
+    { name: '4-session package', price: '$52', unit: '4 sessions · $13 each', points: ['One session a week for a month', 'A small project at the end'], featured: true },
+    { name: '8-session package', price: '$96', unit: '8 sessions · $12 each', points: ['Two sessions a week', 'Bigger projects, faster progress'], featured: false },
+  ],
+  groupNote: 'Siblings or friends learning together (2–3 students): $10 per student per session.',
+  faq: [
+    { q: 'What happens in the free trial?', a: 'We talk about what your child enjoys, then build a tiny project together, such as a guessing game in Python. Afterwards I suggest a course and level. There is no obligation to continue.' },
+    { q: 'What does my child need?', a: 'A laptop or desktop computer (not a tablet), a stable internet connection, a webcam and a headset or microphone. I help install everything in the first session.' },
+    { q: 'When are classes held?', a: 'Every day of the week, at a time agreed with you. I am in Indonesia (UTC+7) and teach families in Asia, Europe and beyond, so we find a slot that fits your time zone.' },
+    { q: 'Which language do you teach in?', a: 'Lessons are in English. Parents are welcome to talk with me in English or Bahasa Indonesia.' },
+    { q: 'Can siblings or friends learn together?', a: 'Yes. Small groups of 2–3 students cost $10 per student per session.' },
+    { q: 'How do I pay?', a: 'By PayPal, Wise or bank transfer, in US dollars.' },
+  ],
   testimonials: [],
-  whatsapp: 'https://wa.me/6285942277317?text=' + encodeURIComponent("Hi Alfat, I'm interested in coding lessons for my child."),
+  whatsapp: 'https://wa.me/6285942277317?text=' + encodeURIComponent("Hi Alfat, I'd like to book a free trial coding class for my child."),
 }
 
 export const faqIntro =
