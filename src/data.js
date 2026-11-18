@@ -11,7 +11,7 @@ export const profile = {
   email: 'alfattaufiknh@gmail.com',
   phone: '+62 859-4227-7317',
   cv: 'https://docs.google.com/document/d/18zeiQeMrQV3xnhDn1syUdH0Ba3_A3A4py-HidcY3EkI/edit?usp=sharing',
-  avatar: '/images/avatar.webp',
+  avatar: '/icon-192.png',
   portraitFront: '/images/hero-front.webp',
   portraitBack: '/images/portrait-back.webp',
 }
